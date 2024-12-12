@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #389938;
+}
+
+.inner_header{
+    width: 1800px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo_container h1 span{
+    font-size: 100%;
+}
+
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 45px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.body{
+    height: 100%;
+    text-align: center;
+    margin-top: 75px;
+    
+}
+
+.kurzy a li{
+    font-size: 200%;
+    padding: 2px;
+    margin: 15px;
+    border: #ffffff;
+    border-radius: 8%;
+    border-style: solid;
+    background-color: #4B4949;
+    
+}
+
+.kurzy a{
+    color: #2dbd2d;
+}
+
+.text{
+    padding-bottom: 75px;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.megatipovacka{
+    margin-top: 100px;
+    color: yellow;
+}
+
+.buttons{
+    margin: 0 800px;
+}
+
+body{
+    background-color: orange;
+    
+}
+
+.image{
+    float: right;
+    margin-right: 200px;
+    margin-top: 250px;
+}
+
+img{
+   width: 200px;
+}
+
+.image_2{
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+.image_3{
+    float: left;
+    margin-left: 100px;
+    margin-top: 450px;
+}
+
+
+
+
+
+.body-kurzy{
+    background-color: #202020;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tridy h1{
+    text-align: center;
+    color: #389938;
+    margin: 20px 0;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+.kurzy-tabulka{
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    display: table;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.hlavicka{
+    background-color: #389938;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.tym{
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.separator{
+    padding: 0 85px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.prilezitost{
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.radek{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+.border{
+    border: #ffffff solid 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    width: 40%;
+    border-radius: 5px;
+    align-items: center;
+    padding: 2px 10px;
+}
+
+.tip{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.kurz{
+    color: #2dbd2d;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+
+.tabulky{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.radek-spec{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.border-spec{
+    border: #ffffff solid 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    padding: 2px 10px;
+}
+
+
+
+
+.rules{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+
+.rules h1{
+    color: #389938;
+}
+
+.rules p{
+    margin-top: 10px;
+}
+
+.rules a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.rules span{
+    font-weight: bold;
+}
+
+.pref{
+    color: rgb(255, 216, 216);
+}
+
+.contact{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+
+.contact h1{
+    color: #389938;
+}
+
+.contact span{
+    font-weight: bold;
+}
+
+.mega{
+    text-align: center;
+    margin: 0 550px;
+    background-color: #202020;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px 100px;
+    margin-top: 100px;
+}
+
+.nadpis{
+    margin-bottom: 50px;
+    color: yellow;
+}
+
+.points{
+    text-align: left;
+    margin-left: 108px;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.policka input{
+    width: 50px;
+    margin: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+.policka{
+    margin: 0 150px;
+    
+}
+
+.radecek{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #414141 solid 1px;
+
+}
+
+.radecek label{
+    margin-top: 5px;
+}
+
+
+.odevzdani{
+    margin-top: 50px;
+}
