@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const pravdepodobnost1 = 0.10;  // O7.A VS O7.B 
     const pravdepodobnost2 = 0.60;  // O7.A VS 3.A
-    const pravdepodobnost3 = 0.94;  // O7.B VS 3.A
+    const pravdepodobnost3 = 0.92;  // O7.B VS 3.A
     
     
 

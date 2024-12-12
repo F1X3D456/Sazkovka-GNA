@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Pravděpodobnost týmu vlevo na výhru setu
 
     const pravdepodobnost1 = 0.35;  // O6.A VS O6.B 
-    const pravdepodobnost2 = 0.55;  // O6.A VS 2.A
+    const pravdepodobnost2 = 0.60;  // O6.A VS 2.A
     const pravdepodobnost3 = 0.70;  // O6.B VS 2.A
     
     
