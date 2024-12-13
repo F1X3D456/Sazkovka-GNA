@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Pravděpodobnost týmu vlevo na výhru setu
 
     const pravdepodobnost1 = 0.25;  // O3.A VS O3.B 
-    const pravdepodobnost2 = 0.18;  // O3.A VS O4.A
+    const pravdepodobnost2 = 0.20;  // O3.A VS O4.A
     const pravdepodobnost3 = 0.12;  // O3.A VS O4.B
-    const pravdepodobnost4 = 0.35;  // O3.B VS O4.A
-    const pravdepodobnost5 = 0.25;  // O3.B VS O4.B
+    const pravdepodobnost4 = 0.40;  // O3.B VS O4.A
+    const pravdepodobnost5 = 0.20;  // O3.B VS O4.B
     const pravdepodobnost6 = 0.30;  // O4.A VS O4.B
     
 
