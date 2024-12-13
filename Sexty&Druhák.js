@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Pravděpodobnost týmu na celkovou výhru bez jediné prohry (tým 3)
 
-    let product3 = ((1-pravdepodobnost2)*(1-pravdepodobnost2)+2*(1-pravdepodobnost2)*(1-pravdepodobnost2)*pravdepodobnost2)*((1-pravdepodobnost3)*(1-pravdepodobnost3)+2*(1-pravdepodobnost3)*(1-pravdepodobnost3)*pravdepodobnost3)
+    let product3 = ((1-pravdepodobnost2)*(1-pravdepodobnost2)+2*(1-pravdepodobnost2)*(1-pravdepodobnost2)*pravdepodobnost2)*((1-pravdepodobnost3)*(1-pravdepodobnost3)+2*(1-pravdepodobnost3)*(1-pravdepodobnost3)*pravdepodobnost3))
 
 
     // Pravděpodobnost na rozhodnutí výsledku až pomocí setů
