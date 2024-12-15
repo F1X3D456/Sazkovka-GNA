@@ -18,6 +18,7 @@
     height: 100%;
     display: block;
     margin: 0 auto;
+    background-color: #389938;
 }
 
 .logo_container{
@@ -343,4 +344,79 @@ img{
 
 .odevzdani{
     margin-top: 50px;
+}
+
+.vysledky{
+    display: flex;
+}
+
+.skupina{
+    background-color: #202020;
+    display: inline-block;
+    width: 16%;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skupina h1{
+    background-color: #292929;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.match{
+    margin-top: 10px;
+}
+
+.name{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    background-color: #389938;
+    border-radius: 4px;
+    padding: 0 40px;
+}
+
+.result{
+    display: contents;
+}
+
+.sets{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 50px;
+}
+
+.score{
+    font-size: larger
+}
+
+.postup{
+    margin-right: 10%;
+    background-color: #292929;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: -18%;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 100px;
+    justify-content: space-between;
+}
+
+.postup h1{
+    margin-bottom: 20px;
+    background-color: #389938;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+.postup p{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 10px;
 }
